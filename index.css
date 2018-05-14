@@ -1,0 +1,25 @@
+body {
+    font-family: 'Carter One';
+    background-image: url("http://www.mulierchile.com/chemistry-backgrounds/chemistry-backgrounds-004.jpg");
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h2 {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.col.m6 {
+    height: 250px;
+}
+
+.col.m6:hover {
+    background-color: #e57373;
+    border: 2px solid;
+    opacity: 0.9;
+}
