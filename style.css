@@ -10,21 +10,11 @@ main {
     flex: 1 0 auto;
 }
 
-.col.m4 {
+.hoverable {
     height: 550px;
 }
 
-.col.m4:hover {
-    background-color: #e57373;
-    border: 2px solid;
-    opacity: 0.9;
-}
-
-.col.m6 {
-    height: 250px;
-}
-
-.col.m6:hover {
+.hoverable:hover {
     background-color: #e57373;
     border: 2px solid;
     opacity: 0.9;
@@ -43,4 +33,12 @@ a:hover {
     margin-top: 75px;
     width: 300px;
     height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .col.s12 {
+        background-color: #e57373;
+        border: 2px solid;
+        opacity: 0.9;
+    }
 }
