@@ -35,10 +35,6 @@ a:hover {
     height: 300px;
 }
 
-@media screen and (max-width: 600px) {
-    .col.s12 {
-        background-color: #e57373;
-        border: 2px solid;
-        opacity: 0.9;
-    }
+.divider{
+    background-color:black;
 }
