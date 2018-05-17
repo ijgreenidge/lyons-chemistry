@@ -32,8 +32,13 @@ a:hover {
     margin-top: 160px;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-       background-color: red; 
-    }
+
+.top{
+    margin-top:25px;
+    padding:140px;
+    background-color: white;
+}
+
+.ap{
+    margin-top: 60px;
 }
