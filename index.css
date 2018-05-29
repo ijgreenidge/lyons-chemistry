@@ -34,7 +34,7 @@ a:hover {
 
 
 .top{
-    margin-top:25px;
+    opacity: 0.9;
     padding:140px;
     background-color: white;
 }
