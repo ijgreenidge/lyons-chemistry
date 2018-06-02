@@ -11,6 +11,7 @@ main {
 }
 
 .hoverable {
+    margin-top: 10px;
     height: 550px;
 }
 
@@ -25,7 +26,7 @@ h3 {
 }
 
 a {
-    color:black;
+    color: black;
 }
 
 a:hover {
@@ -38,7 +39,19 @@ a:hover {
     height: 300px;
 }
 
-.divider{
-    background-color:black;
+.divider {
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+
+    .hoverable {
+        background-color: #e57373;
+       border: solid 2px black;
+        opacity: 0.9;
+    }
+    
+   
+
 }
 
